@@ -1,0 +1,28 @@
+
+@import './common.less';
+
+.container{
+  display: flex;
+  .nav{
+    width: 15%;
+    min-width: 180px;
+    height: calc(100vh);
+    background-color:#001529;
+  }
+  .header,.footer{
+    height: 50px;
+    line-height: 50px;
+  }
+  .main{
+    flex: 1;
+    height: calc(100vh);
+    background-color:#ccc;
+  }
+  .content{
+    position: relative;
+    padding: 20px;
+    background-color: #ffffff;
+    height: calc(~"100vh - 100px");
+    overflow-y: auto;
+  }
+}

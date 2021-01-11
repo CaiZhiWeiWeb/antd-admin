@@ -1,0 +1,184 @@
+
+/* 初始化css */
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 14px "Microsoft YaHei", "\5FAE\x8F6F\6B63\9ED1\4F53 ", "华文黑体",
+    STHeiti, "思源黑体", "Noto Sans CJK SC", "方正黑体", "宋体", SimSun, regular,
+    "\5FAE\8F6F\96C5\9ED1", "\9ED1\4F53", "\5b8b\4f53", "Hiragino Sans GB",
+    tahoma, helvetica, arial;
+  // background: #e9f0f9;
+  -webkit-text-size-adjust: 100%;
+  // color: #333333;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 4px;
+  width: 10px;
+  // background-color: #ccc;
+  border-radius: 5px;
+  // border: 2px solid #f3f5f7;
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+  height: 4px;
+  width: 10px;
+  // background-color: #999;
+  border-radius: 5px;
+}
+
+em {
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+p {
+  word-wrap: break-word;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+/*公共类*/
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.al {
+  text-align: left;
+}
+
+.ac {
+  text-align: center;
+}
+
+.ar {
+  text-align: right;
+}
+
+.hide {
+  display: none;
+}
+
+
+
+.dis-flex {
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+}
+
+.flex-start {
+  align-items: flex-start;
+}
+
+.flex-colum {
+  flex-direction: column;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-v {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-pack-center {
+  justify-content: center;
+}
+
+.flex-pack-justify {
+  justify-content: space-between;
+}
+
+.flex-around-justify {
+  justify-content: space-around;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
